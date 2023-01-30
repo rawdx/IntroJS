@@ -25,3 +25,17 @@ function caso4() {
 	document.write(nulo);
 	document.write(typeof (nulo));
 }
+
+function caso5() {
+	function coche(marca, modelo, anioFabricacion) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.anioFabricacion = anioFabricacion;
+	}
+	var Vehiculo = new coche('Honda', 'Civic', 2010);
+
+	document.write(Vehiculo instanceof coche);
+	document.write(Vehiculo instanceof Object);
+	document.write(Vehiculo);
+	document.write(Vehiculo.marca);
+}
