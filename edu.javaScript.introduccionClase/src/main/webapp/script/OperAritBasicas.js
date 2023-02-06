@@ -13,3 +13,12 @@ function Operaciones(){
 	let operacion2 = 46 + 8 * 2 / (2 + 46);
 	document.write("<br><br>46 + 8 * 2 / (2 + 46) = " + operacion2);
 }
+
+function Ejercicio(){
+	var a = 12;
+	let b = 3;
+	
+	if(true){
+		document.write(a-b);
+	}
+}
