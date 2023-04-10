@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+<script src="script/introForm.js"></script>
+</head>
+<body>
+<form>
+<input type="text" name="valor">
+<input type="button" value="Calcular" onclick="calcularValor()">
+<br>
+<input type="text" name="operacion">
+<input type="button" value="Realizar operación" onclick="calcular(this.form)">
+<input type="text" name="resultado">
+<input type="reset">
+<br>
+<br>
+<h2>Peso Corporal</h2>
+<label for="edad">Edad</label>
+<input type="number" name="edad">
+<br>
+<label for="altura">Altura</label>
+<input type="number" name="altura">
+<br>
+<label for="sexo">Sexo</label>
+<select id="sexo">
+<option>Hombre</option>
+<option>Mujer</option>
+</select>
+<input type="button" value="Calcular peso" onclick="calcularPeso(this.form)">
+</form>
+<p id="peso"></p>
+</body>
+</html>
